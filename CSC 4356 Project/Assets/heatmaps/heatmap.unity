@@ -216,7 +216,7 @@ MonoBehaviour:
   positions: []
   properties: []
   material: {fileID: 2100000, guid: 83ce5bec56df1834da3e5847d9accc96, type: 2}
-  count: 50
+  count: 2000
 --- !u!23 &431356734
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -448,7 +448,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.1
   far clip plane: 1000
   field of view: 60
   orthographic: 0
