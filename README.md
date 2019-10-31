@@ -1,2 +1,2 @@
-# csc4356
-programming files and midterm project
+# CSC 4356 Individual Project
+Used a vive pro eye headset to create a heat map based off eye-tracking.
