@@ -280,9 +280,9 @@ MonoBehaviour:
   text: {fileID: 830659157}
   heatMapStarted: 0
   startingIntensity: 0.4
-  drawTime: 0.5
+  drawTime: 0.1
   radiusIncrement: 0.01
-  intensityIncrement: 0.02
+  intensityIncrement: 0.01
   radiusMax: 0.1
   intensityMax: 1
   xCurrentPosition: 0
@@ -698,7 +698,7 @@ PrefabInstance:
     - target: {fileID: 120159424192045528, guid: 95145ad4fe8448d4ebdcf3760752e2e5,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114366848731431556, guid: 95145ad4fe8448d4ebdcf3760752e2e5,
         type: 3}
@@ -869,8 +869,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press the "trigger" on the left/right controller or "space" on the key board
-    to start or stop heatmap.
+  m_Text: Press the "trackpad" on the left/right controller or "space" on the key
+    board to start or stop heatmap.
 --- !u!222 &1518116036
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1168,7 +1168,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005415199}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2}
+  m_LocalPosition: {x: 0, y: -0.45, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

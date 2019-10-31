@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/heatmaps/heatmap.unity
+    guid: e8c59294dd34b524fae24d98b99e3a38
   m_configObjects: {}

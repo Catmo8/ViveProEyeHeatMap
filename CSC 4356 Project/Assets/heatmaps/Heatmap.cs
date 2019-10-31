@@ -20,9 +20,9 @@ public class Heatmap : MonoBehaviour
 
     public bool heatMapStarted = false;      // Keeps track of when the heat map is started or stopped
     public float startingIntensity = 0.4f;   // Intensity that each properties vector starts with; Ranges from [0.0, 1.0]
-    public float drawTime = 0.5f;            // Speed at which the heat map is being drawn overall
+    public float drawTime = 0.1f;            // Speed at which the heat map is being drawn overall
     public float radiusIncrement = .01f;     // Speed that the radius expands; Must be set between [0.01, 0.10] for this program
-    public float intensityIncrement = 0.02f; // Speed that the intensity increases; Must be set between [0.01, 1.0] for this program
+    public float intensityIncrement = 0.01f; // Speed that the intensity increases; Must be set between [0.01, 1.0] for this program
     public float radiusMax = 0.10f;          // Maximum size of the radius
     public float intensityMax = 1.0f;        // Maximum size of the intensity
 
@@ -64,7 +64,7 @@ public class Heatmap : MonoBehaviour
     void Update()
     {
         // Whenever the space key or the controller triggers are pressed, it starts and stops the heat map.
-        if (Input.GetKeyDown(KeyCode.Space) || (Input.GetButtonDown("Left Trigger") || Input.GetButtonDown("Right Trigger")))
+        if (Input.GetKeyDown(KeyCode.Space) || (Input.GetButtonDown("Left Trackpad Press") || Input.GetButtonDown("Right Trackpad Press")))
         {
             Debug.Log("Button pressed!");
             if (!heatMapStarted)
